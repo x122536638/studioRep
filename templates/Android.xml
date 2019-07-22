@@ -1,0 +1,7 @@
+<templateSet group="Android">
+  <template name="xhq" value="  int withMode = MeasureSpec.getMode(widthMeasureSpec);&#10;  int withSize = MeasureSpec.getSize(widthMeasureSpec);&#10;  int heightMode = MeasureSpec.getMode(heightMeasureSpec);&#10;  int heightSize = MeasureSpec.getSize(heightMeasureSpec);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
