@@ -1,5 +1,20 @@
 <templateSet group="Flutter">
-  <template name="XHQTEST" value="XHQTESTXHQTESTXHQTESTXHQTESTXHQTEST" description="XHQTEST" toReformat="false" toShortenFQNames="true">
+  <template name="xhqroute" value="Navigator.push(context, new MaterialPageRoute(builder: (context) =&gt; new NewRoute()));//可以侧拉 ,&#10;//      Navigator.of(context).push(&#10;//                        MaterialPageRoute(fullscreenDialog: true,builder: (context) =&gt; NewRoute()));//不可以侧拉 是从底部跳上来,返回按钮是是X&#10;&#10;&#10;class NewRoute extends StatelessWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Scaffold(&#10;      appBar: AppBar(&#10;        title: Text(&quot;New route&quot;),&#10;      ),&#10;      body: Center(&#10;        child: Text(&quot;This is new route&quot;),&#10;      ),&#10;    );&#10;  }&#10;}&#10;" description="路由" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="xhqkey" value=" MyApp({Key key}) : super(key: key);" description="key" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="xhqgr" value="GridView.builder(&#10;      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(&#10;          crossAxisCount: 3, //每行三列&#10;          childAspectRatio: 1.0 //显示区域宽高相等&#10;      ),&#10;      itemCount:40,&#10;      itemBuilder: (context, index) {&#10;        &#10;        return Text(index.toString());&#10;      }&#10;  );" description="xhqGridview" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="xhqbutton" value="IconButton(icon: Icon(Icons.build), onPressed: (){})" description="iconButtom" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
     </context>
