@@ -4,9 +4,4 @@
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="xhqgs" value="按时大大豪爽的" description="公司电脑" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="DART" value="true" />
-    </context>
-  </template>
 </templateSet>
